@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+         <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <link href = "Knigolov.css" rel="stylesheet" type="text/css">
+    </head>
+    <body style="background: #FFE2E7;">
+        <header>
+            <div class="company-name"> Книголов</div>
+            <nav class="nav nav-pills flex-column flex-sm-row">
+  <a class="flex-sm-fill text-sm-center nav-link not_active" aria-current="page" href="kr2_magazine.html">Главная</a>
+  <a class="flex-sm-fill text-sm-center nav-link active" href="kr2_zakaz.html">Заказать</a>
+  <a class="flex-sm-fill text-sm-center nav-link not_active" href="kr2_hist.html">Описание книг</a>
+</nav>
+ </header>
+<form action="https://www.bing.com/search?"  id="UserEnter" name="UserEnter" target="_blank">
+    <input name="q" type="hidden" value="search">
+     <div class="anketa">Вы можете сделать заказ!</div>
+        <div> <p> <div align ="center">
+            <label for="surname">Фамилия:</label>
+            <input type="text" id="surname" name="surname" value="Востротина" required>
+        </div> </p>
+
+        <p><div align ="center">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" value="Софья" required>
+        </div></p>
+
+        
+
+        <p><div align ="center">
+            <label for="phone">Мобильный телефон:</label>
+            <input type="tel" id="phone" name="phone" value="+12345678901">
+        </div></p>
+
+        <p align ="center"> <label>Прислать уведомление о получении заказа?</label>
+                    <input type="radio" id="option1" name="preference" value="option1" checked="">
+                    <label for="option1">Да</label>
+                    <input type="radio" id="option2" name="preference" value="option2">
+                    <label for="option2">Нет</label></p>
+        <p><div align ="center">
+            <label for="sms">Прислать получателю СМС</label>
+            <input id="sms" name = "sms" type="checkbox">
+        </div></p>
+        <div align ="center"><button class="btn" type="submit">Отправить</button></div></form> </div>
+        
+    </body>

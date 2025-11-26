@@ -1,0 +1,106 @@
+.company-name {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #4A2B17;
+  color: #FFE2E7;
+ font-family: Georgia, serif;
+ display: flex;
+ flex-direction: column;
+    min-width: 0;
+position: relative;
+word-wrap: break-word;
+}
+.active { 
+font-size: 20px;
+background-color: #FFE2E7 !important;
+color: #4A2B17 !important;
+font-family: Georgia, serif; }
+
+.not_active { 
+font-size: 20px;
+background-color: #4A2B17 !important;
+color: #FFE2E7 !important;
+font-family: Georgia, serif; }
+
+.body { 
+flex-direction: column;
+font-family: Georgia, serif;
+padding: 30px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.product-block {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  background-color: #4A2B17;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #FFE2E7;
+  
+}
+
+.product-block img {
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-block h3 {
+  margin-top: 10px;
+  font-size: 18px;
+ font-family: Georgia, serif;
+}
+
+.product-block p {
+  margin-top: 5px;
+  font-size: 16px;
+font-family: Georgia, serif;
+}
+.btn {
+  font-family: Georgia, serif;
+   background-color: #4A2B17;
+   color: #FFE2E7 !important;
+
+}
+.anketa {
+  font-family: Georgia, serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.hist{
+  font-family: Georgia, serif;
+  background-color: #FFE2E7 !important;
+color: #4A2B17 !important;
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.zag {
+  width: 100%;
+  margin-bottom: 30px;
+  height: 250px;
+}
+.navi{
+  font-family: Georgia, serif;
+
+}
+a{ color: #4A2B17 !important;}
+

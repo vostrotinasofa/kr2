@@ -1,0 +1,99 @@
+[
+  {
+    "id": "1",
+    "title": "Бал Сатаны",
+    "vendor_code": "111",
+    "description": "Гоголь, Тургенев, Чехов и др.",
+    "price": 150,
+    "img": "bal.jpg"},
+  {
+    "id": "2",
+    "title": "Вечеринка в Хэллоуин",
+    "vendor_code": "222",
+    "description": "Агата Кристи",
+    "price": 200,
+    "img": "vevh.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Врата",
+    "vendor_code": "333",
+    "description": "Нацуме Сосэки",
+    "price": 300,
+    "img": "vrata.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Записки у изголовья",
+    "vendor_code": "444",
+    "description": "Сэй-сенагон",
+    "price": 400,
+    "img": "zapiski.jpg"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "Товар 5",
+    "vendor_code": "555",
+    "description": "Описание 6",
+    "price": 150,
+    "img": "canun.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Мастер и Маргарита",
+    "vendor_code": "666",
+    "description": "Михаил Булгаков",
+    "price": 400,
+    "img": "mandm.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Охота на овец",
+    "vendor_code": "777",
+    "description": "Харуки Мураками",
+    "price": 300,
+    "img": "ovzi.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Сказания Древней Японии",
+    "vendor_code": "888",
+    "description": "Садзанами Сандзин",
+    "price": 300,
+    "img": "japan.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Что-то не так с Гэлвинами",
+    "vendor_code": "999",
+    "description": "Роберт Колкер",
+    "price": 230,
+    "img": "galvin.jpg"
+  }
+  ,
+  {
+    "id": "10",
+    "title": "Что-то не так с Гэлвинами",
+    "vendor_code": "999",
+    "description": "Роберт Колкер",
+    "price": 230,
+    "img": "galvin.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Товар 11",
+    "vendor_code": "44411e",
+    "description": "Описание 1",
+    "price": 1100,
+    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_6.png"
+  },
+  {
+    "id": "0",
+    "title": "Записки у изголовья",
+    "vendor_code": "444e",
+    "description": "Сэй-сенагон",
+    "price": 400,
+    "img": "zapiski.jpg"
+  }
+]
